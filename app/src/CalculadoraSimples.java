@@ -46,7 +46,11 @@ public class CalculadoraSimples {
                         System.out.println("A divisão é: " + resultadoDivisao);
                     }
                     break;
+                default:
+                    System.out.println("Opção Inválida!");
+                    break;
             }
         }while(op != 0);
+        sc.close();
     }
 }
